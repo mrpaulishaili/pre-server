@@ -1,0 +1,1 @@
+{"version":3,"file":"resourceController.js","sourceRoot":"","sources":["../../controllers/resourceController.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;AACA,gEAAwC;AACxC,sDAAsD;AAEzC,QAAA,kBAAkB,GAAG;IAC1B,KAAK,CAAC,GAAY,EAAE,GAAa;;YACrC,MAAM,SAAS,GAAG,MAAM,gBAAM,CAAC,QAAQ,CAAC,QAAQ,EAAE,CAAC;YACnD,OAAO,GAAG,CAAC,IAAI,CAAC,SAAS,CAAC,CAAC;QAC7B,CAAC;KAAA;CACF,CAAC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"adsController.js","sourceRoot":"","sources":["../../controllers/adsController.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;AACA,gEAAwC;AAE3B,QAAA,aAAa,GAAG;IACrB,KAAK,CAAC,GAAY,EAAE,GAAa;;YACrC,MAAM,GAAG,GAAG,MAAM,gBAAM,CAAC,aAAa,CAAC,QAAQ,EAAE,CAAC;YAClD,OAAO,GAAG,CAAC,IAAI,CAAC,GAAG,CAAC,CAAC;QACvB,CAAC;KAAA;CACF,CAAC"}

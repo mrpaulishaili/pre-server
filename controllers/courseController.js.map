@@ -1,0 +1,1 @@
+{"version":3,"file":"courseController.js","sourceRoot":"","sources":["../../controllers/courseController.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;AACA,gEAAwC;AAE3B,QAAA,gBAAgB,GAAG;IACxB,KAAK,CAAC,GAAY,EAAE,GAAa;;YACrC,MAAM,OAAO,GAAG,MAAM,gBAAM,CAAC,MAAM,CAAC,QAAQ,EAAE,CAAC;YAC/C,OAAO,GAAG,CAAC,IAAI,CAAC,OAAO,CAAC,CAAC;QAC3B,CAAC;KAAA;CACF,CAAC"}

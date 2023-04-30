@@ -1,0 +1,1 @@
+{"version":3,"file":"postController.js","sourceRoot":"","sources":["../../controllers/postController.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;AACA,gEAAwC;AAE3B,QAAA,cAAc,GAAG;IACtB,KAAK,CAAC,GAAY,EAAE,GAAa;;YACrC,MAAM,KAAK,GAAG,MAAM,gBAAM,CAAC,QAAQ,CAAC,QAAQ,EAAE,CAAC;YAC/C,OAAO,GAAG,CAAC,IAAI,CAAC,KAAK,CAAC,CAAC;QACzB,CAAC;KAAA;CACF,CAAC"}
