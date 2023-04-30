@@ -1,0 +1,52 @@
+{
+  "name": "edupora-server-api",
+  "version": "1.0.0",
+  "description": "The official EDUPORA platform server API for v2.0 launch and ahead.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "pre-commit": [
+    "ts.check",
+    "build",
+    "add-build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EDUPORA/Edupora-server-api.git"
+  },
+  "keywords": [
+    "api",
+    "server",
+    "edupora"
+  ],
+  "author": "EDUPORA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EDUPORA/Edupora-server-api/issues"
+  },
+  "homepage": "https://github.com/EDUPORA/Edupora-server-api#readme",
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/node": "^18.16.0",
+    "nodemon": "^2.0.22",
+    "pre-commit": "^1.2.2",
+    "prisma": "^4.13.0",
+    "rimraf": "^5.0.0",
+    "ts-node": "^10.9.1",
+    "tsc-watch": "^6.0.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.13.0",
+    "cloudinary": "^1.36.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0"
+  }
+}
