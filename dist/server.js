@@ -17,6 +17,7 @@ const couses_1 = __importDefault(require("./routes/couses"));
 const resources_1 = __importDefault(require("./routes/resources"));
 const user_1 = __importDefault(require("./routes/user"));
 const normalizePort_1 = __importDefault(require("./utils/normalizePort"));
+const upload_1 = __importDefault(require("./routes/upload"));
 const app = (0, express_1.default)();
 const PORT = (0, normalizePort_1.default)(process.env.PORT || 4000);
 app.set('port', PORT);
@@ -38,6 +39,7 @@ app.use('/products', products_1.default);
 app.use('/courses', couses_1.default);
 app.use('/resources', resources_1.default);
 app.use('/users', user_1.default);
+app.use('/upload', upload_1.default);
 app.get('/', (req, res) => {
     res.send('Edupora Server API');
 });

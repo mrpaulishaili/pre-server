@@ -1,0 +1,127 @@
+[
+  {
+    "code": "AEX 101",
+    "description": "",
+    "title": " Philosophy and Principles of Agricultural Extension",
+    "unit_load": 2,
+    "semester": 1,
+    "topics": [
+      "Definitions of extension",
+      "Need for agricultural extension",
+      "Origin and history of agricultural extension",
+      "Basic philosophies and objectives of agricultural extension",
+      "Principles governing effective extension work",
+      "Introduction to different branches of agricultural extension",
+      "Paradigms for agricultural extension",
+      "Concepts of adult and community education",
+      "Roles of private sector in agricultural development",
+      "Strategies for rural and agricultural development."
+    ]
+  },
+  {
+    "code": "AEX 102",
+    "description": "",
+    "title": "Psychology in Extension",
+    "unit_load": 2,
+    "semester": 2,
+    "topics": [
+      "Meaning, scope and importance of psychology",
+      "Intelligence – meaning, types, factors and importance in agricultural extension",
+      "Personality- meaning, types, and their effect on learning, human relationship and agricultural extension",
+      "Perception, emotions and frustration –meaning, types, factors and importance in agricultural extension",
+      "Motivation- meaning",
+      "types of motivation, theories of motivation and importance in agricultural extension",
+      "implications of physical, mental, emotional and social aspects of learning",
+      "Needs and theories of need. Problem-solving and decision- making strategies",
+      "Evaluation of learners’ achievements."
+    ]
+  },
+  {
+    "code": "AEX 201",
+    "description": "",
+    "title": "Introduction to Agricultural Extension and Extension Teaching Methods",
+    "unit_load": 2,
+    "semester": 1,
+    "topics": [
+      "Evolution of Agricultural Extension Worldwide",
+      "Historical perspective of agricultural extension in Nigeria",
+      "The past performance of various extension programs, systems and models practiced in Nigeria",
+      "Recent trends in agricultural extension",
+      "Agricultural extension policies and special programmes in extension",
+      "Institutional setting of agricultural extension",
+      "Classification and study of various agricultural extension teaching methods",
+      "aids and their uses, teaching, learning, learning experience and learning situation – meaning and definition",
+      "elements of learning situation and its characteristics",
+      "principles of learning and their implication in teaching – steps in extension teaching",
+      "Family Approach to Extension Vs. Group Approach. The Change Process (Social Action Process)",
+      "Preparation and Use of Teaching Materials and Aids."
+    ]
+  },
+  {
+    "code": "AEX 301",
+    "description": "",
+    "title": "Introduction to Rural Sociology",
+    "unit_load": 2,
+    "semester": 1,
+    "topics": [
+      "Meaning of sociology and rural sociology",
+      "Basic concepts and principles of rural sociology to an understanding of rural situation",
+      "importance of rural sociology in agricultural extension and their interrelationship",
+      "Importance of rural communities and institutions",
+      "Characteristics of Nigerian rural society- differences and relationship between rural and urban societies",
+      "Social groups – classification, formation and organization of groups",
+      "Social stratification – meaning and forms",
+      "Culture and their roles in agricultural extension",
+      "Social processes and social change in rural areas",
+      "Leadership in rural communities – meaning, classification of leaders, roles and functions of rural leaders and different methods in selection of leaders",
+      "Training of leaders – lay and professional leaders",
+      "Development of rural community leaders",
+      "The extension agent and the rural community",
+      "advantages and limitation of using local leaders in agricultural extension."
+    ]
+  },
+  {
+    "code": "AEX 302",
+    "description": "",
+    "title": "Introduction to Rural Sociology",
+    "unit_load": 2,
+    "semester": 2,
+    "topics": [
+      "Agricultural laws in Nigeria",
+      "International laws on movement of biological materials, quarantine and procedures",
+      "Land Use Act of Nigeria",
+      "Land reforms in other countries",
+      "Land reforms for reducing poverty in rural and urban areas",
+      "Property ownership, acquisition and disposal in general setting",
+      "Land tenure systems and small scale farmers in Nigeria",
+      "Restrictions on the use and ownership of land",
+      "Right in the use of water (the riparian right)",
+      "Food and drug laws",
+      "Partnership/ concurrent/ co-ownership of properties",
+      "Land administration for good governances and conflict management",
+      "Policies relating to agricultural insurance",
+      "bush burning",
+      "marketing , export and import of food commodities",
+      "Factors affecting agrarian laws."
+    ]
+  },
+  {
+    "code": "AEX 421",
+    "description": "",
+    "title": "Information Communication Technology and Documentation in Extension",
+    "unit_load": 2,
+    "semester": 1,
+    "topics": [
+      "Meaning and types of ICTs",
+      "Overview of technologies used in extension programmes (uses of audio-visuals, phones, cameras, banners, computers, internet and posters in extension)",
+      "Techniques for documenting farming activities,Practical application of ICTs in documenting farming activities",
+      "Use of Web 2.0 tools and on – line resources in extension",
+      "Presentation skills",
+      "Techniques for news and script writing in extension",
+      "Techniques of exhibition and advertising in agriculture",
+      "Techniques for printing of films, slides, How to use video cameras, tape recorders, public address system, cartoon and graphics in extension",
+      "Constraints to the use of modern ICTs in agriculture",
+      "Care and maintenance of selected audio and visual equipment in extension."
+    ]
+  }
+]

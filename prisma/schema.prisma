@@ -1,0 +1,110 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Product {
+  id          String @id @default(auto()) @map("_id") @db.ObjectId
+  name        String @unique
+  description String
+  imgUrl      String
+  price       String
+}
+
+model Account {
+  id                String  @id @default(auto()) @map("_id") @db.ObjectId
+  userId            String  @db.ObjectId
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.String
+  access_token      String? @db.String
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.String
+  session_state     String?
+  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Course {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  code        String?
+  description String
+  title       String
+  unit_load   Int?
+  semester    Int?
+  topics      String[]
+}
+
+model Session {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  sessionToken String   @unique
+  userId       String   @db.ObjectId
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model User {
+  id            String     @id @default(auto()) @map("_id") @db.ObjectId
+  name          String
+  email         String     @unique
+  password      String
+  phone         String?
+  gender        String?
+  bio           String?
+  emailVerified DateTime?
+  avatar        String?
+  accounts      Account[]
+  sessions      Session[]
+  Business      Business[]
+}
+
+model VerificationToken {
+  identifier String   @id @default(auto()) @map("_id") @db.ObjectId
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model Advertisement {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  businessId  String   @db.ObjectId
+  description String[]
+  image       String
+  ctaType     String   @map("ctaType")
+  ctaText     String   @map("ctaText")
+  ctaLink     String   @map("ctaLink")
+  likes       Int      @map("reactionsLikes")
+  comments    Int      @map("reactionsComments")
+}
+
+model Business {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  logo        String
+  name        String
+  userId      String?  @db.ObjectId
+  description String[]
+  user        User?    @relation(fields: [userId], references: [id])
+}
+
+model Resource {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  name        String
+  description String
+  link        String
+  image       String
+  type        String
+  publisher   String
+  tags        String[]
+}
